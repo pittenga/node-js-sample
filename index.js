@@ -32,7 +32,7 @@ app.get('/', function(request, response) {
       [3, 4, 5, 6, 7]
     ]
   };
-  const bar2 = yield generate('bar', options2, data2); //=> chart HTML
+  const bar2 = yield generate('line', options2, data2); //=> chart HTML
   response.send('<head><link rel="stylesheet" href="main.css"> Hello World!</head>' + '<div class="chartHtml">' + bar +  '</div>')
   });
 
