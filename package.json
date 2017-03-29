@@ -7,9 +7,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "sweetalert2": "^6.4.4",
     "express": "^4.13.3",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "node-chartist": "^1.0.2",
+    "co": "^4.6.0"
   },
   "engines": {
     "node": "4.0.0"
@@ -23,6 +24,7 @@
     "heroku",
     "express"
   ],
+  "style": "main.css",
   "author": "Aaron Pittenger",
   "contributors": [
     "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com), Mark Pundsack"
